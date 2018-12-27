@@ -1,0 +1,7 @@
+{
+    "AppSyncApiName": "graphqlreactscn",
+    "schemaGraphql": "s3://rapheactscn-20181227020334-deployment/amplify-appsync-files/schema.graphql.1545894428497",
+    "ResolverBucket": "rapheactscn-20181227020334-deployment",
+    "ResolverRootKey": "amplify-appsync-files",
+    "DeploymentTimestamp": "1545894428497"
+}

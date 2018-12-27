@@ -1,0 +1,32 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "rapheactscn-20181227020334-authRole",
+			"UnauthRoleArn": "arn:aws:iam::520649825970:role/rapheactscn-20181227020334-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::520649825970:role/rapheactscn-20181227020334-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "rapheactscn-20181227020334-deployment",
+			"UnauthRoleName": "rapheactscn-20181227020334-unauthRole",
+			"StackName": "rapheactscn-20181227020334",
+			"StackId": "arn:aws:cloudformation:us-east-1:520649825970:stack/rapheactscn-20181227020334/8772c3d0-09a5-11e9-ae8c-0aaa9d7b8aca"
+		}
+	},
+	"api": {
+		"graphqlreactscn": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"securityType": "API_KEY",
+				"GraphQLAPIIdOutput": "55npw6ivmbanncau3ievjliwui",
+				"GraphQLAPIEndpointOutput": "https://qd4lhqyplbaf7dyvrkpngg4ft4.appsync-api.us-east-1.amazonaws.com/graphql",
+				"GraphQLAPIKeyOutput": "da2-vwhmeubiurchxb6pjmdrfpu5hy"
+			},
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/rapheactscn-20181227020334-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"logicalId": "apigraphqlreactscn"
+			},
+			"lastPushTimeStamp": "2018-12-27T07:10:19.026Z",
+			"lastPushDirHash": "ADD/RTva0SLjbRTlJaEBxFeUmP4="
+		}
+	}
+}
